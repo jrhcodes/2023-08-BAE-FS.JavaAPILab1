@@ -11,8 +11,9 @@ import java.util.concurrent.atomic.AtomicLong;
 public class CoffeeController {
 
     private final AtomicLong counter = new AtomicLong();
+
     @GetMapping(value = "/coffeelover")
-    public String home(){
+    public String home() {
         return "I like coffee!";
     }
 
